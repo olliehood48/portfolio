@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import Header from './Sections/Header';
+import About from './Sections/About';
+import Projects from './Sections/Projects';
 
-function App() {
+const App = () => {
+  const [activeSection, setActiveSection] = useState('projects');
+
+  const handleNavigation = (section) => {
+    setActiveSection(section);
+    // Optionally, scroll to the section
+    document.getElementById(section)?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style = {{background: 'white'}}>
+      <Header activeSection={activeSection} onNavigate={handleNavigation} />
+      {activeSection === 'about' && <About />}
+      {activeSection === 'projects' && <Projects />}
     </div>
   );
-}
+};
 
 export default App;
