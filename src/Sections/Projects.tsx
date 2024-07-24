@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import ProjectCards from '../Components/ProjectCards';
-import ProjectInfo from './ProjectInfo';
+import ProjectCardInfo from './ProjectCardInfo';
+import { FaChevronDown } from "react-icons/fa";
 
-const Projects: React.FC = () => {
+const Projects: React.FC = (  ) => {
   const [scrollY, setScrollY] = useState(0);
 
   const handleScroll = () => {
@@ -25,9 +26,19 @@ const Projects: React.FC = () => {
   };
 
   return (
-    <section id="projects" style={{ marginLeft: 20, marginRight: 20, paddingBottom: 20 }}>
-      <h2>Projects</h2>
-      {ProjectInfo.map((project, index) => (
+    <section id="projects" style={{ paddingBottom: 20 }}>
+      <div
+        style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+        marginTop: '40px'
+        }}>
+        <p>Scroll below to see projects</p>
+        <FaChevronDown />
+      </div>
+      {ProjectCardInfo.map((project, index) => (
         <div
           key={index}
           ref={(el) => {
@@ -39,7 +50,7 @@ const Projects: React.FC = () => {
           }}
           style={projectStyle}
           >
-          <div style={projectTitleHeaderStyle}>
+          <div style={{...projectTitleHeaderStyle, marginLeft: '15px', marginRight: '15px'}}>
             <div>
               <b>{project.title}</b>
             </div>
@@ -49,7 +60,6 @@ const Projects: React.FC = () => {
           </div>
           <ProjectCards
             cards={project.cards}
-            description={project.description}
           />
         </div>
       ))}
@@ -59,9 +69,8 @@ const Projects: React.FC = () => {
 
 // styles
 const projectTitleHeaderStyle: React.CSSProperties = {
-  cursor: 'pointer',
   padding: '13px',
-  backgroundColor: 'lightblue',
+  backgroundColor: 'powderblue',
   borderRadius: '5px',
   marginTop: '12px',
 };
