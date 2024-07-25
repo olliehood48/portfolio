@@ -26,7 +26,7 @@ const ProjectCardInfo: Project[] = [
       cards: [
         { id: 1, title: 'About', technologies: ["JavaScript", "Python", "MongoDB", "Tailwind", "NodeJS", "Express"], 
           cardInfo: 'Athlon was an app I developed as an exercise to gain experience using JavaScript, which I did in React Native using TailwindCSS for most of the styling. For the backend I initially used FastAPI, but eventually moved to MongoDB connected with NodeJS and Express.' },
-        { id: 2, title: 'Demo' }, //, video: Videos.Athlon.AthlonDemo},
+        { id: 2, title: 'Demo', video: Videos.Athlon.AthlonDemo},
         { id: 3, title: 'UI Examples', cardInfo: 'Description for Card 2', image: CardPhotos.Athlon.Athlon1},
         { id: 4, title: 'Technology/Experience', cardInfo: 'Developing an app with React Native provided me with valuable experience in frontend component development and deepened my understanding of key techniques like asynchronous programming and state management using React hooks. Additionally, I gained insights into database optimization, employing tools like MongoDB schemas and learning how to connect to the backend using Node.js and Express. I also utilised Python for web scraping to have live score updates and articles.' },
 
