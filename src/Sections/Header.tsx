@@ -34,7 +34,7 @@ const Header: React.FC = () => (
           const imgSrc = CardPhotos.Technologies[tech];
 
           return imgSrc ? (
-              <img src={imgSrc} alt={tech} key={tech} style={{ width: (isMobile ? '55px' : '75px'), height: (isMobile ? '55px' : '75px'), marginRight: '40px' }} />
+              <img src={imgSrc} alt={tech} key={tech} style={{ width: (isMobile ? '55px' : '60px'), height: (isMobile ? '55px' : '75px'), marginRight: '40px' }} />
           ) : (
             <span key={tech} style={{ margin: '5px', textAlign: 'center' }}>{tech}</span>
           );
