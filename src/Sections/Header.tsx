@@ -2,7 +2,7 @@ import React from 'react';
 import { isMobile } from '../mobileCheck';
 import { CardPhotos } from '../images/imageLinks';
 
-const technologies = ["Python", "JavaScript", "TypeScript", "MongoDB", "Pandas", "Numpy", "Tailwind", "NodeJS", "TKinter", "Express", "PowerBI"]
+const technologies = ["Python", "JavaScript", "TypeScript", "MongoDB", "Pandas", "Numpy", "Tailwind", "NodeJS", "TKinter", "Express", "Matplotlib", "PowerBI"]
 
 const Header: React.FC = () => (
   <header style = {headerStyle}>
