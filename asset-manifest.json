@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.f855e6bc.css",
+    "main.js": "/portfolio/static/js/main.34c9f2c1.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/AthlonDemo.mp4": "/portfolio/static/media/AthlonDemo.df752787326f30e95a23.mp4",
+    "static/media/GillespieDemo.mp4": "/portfolio/static/media/GillespieDemo.bc9229fa628701b0c051.mp4",
+    "static/media/MatplotlibLogo.png": "/portfolio/static/media/MatplotlibLogo.ff2c53e0e15056bcb978.png",
+    "static/media/Athlon1.png": "/portfolio/static/media/Athlon1.d24201ae47f03c843228.png",
+    "static/media/CV - Oliver Hood (PDF).pdf": "/portfolio/static/media/CV - Oliver Hood (PDF).fbb03a4577de51fbb97b.pdf",
+    "static/media/TKinter1.png": "/portfolio/static/media/TKinter1.12bdd006d46cd6ee79e8.png",
+    "static/media/PythonLogo.png": "/portfolio/static/media/PythonLogo.5e4707bb04be435dace2.png",
+    "static/media/NodeJSLogo.png": "/portfolio/static/media/NodeJSLogo.9fea1c7da2bd42ab93bf.png",
+    "static/media/PandasLogo.png": "/portfolio/static/media/PandasLogo.91da60116d9833194dc8.png",
+    "static/media/TailwindLogo.png": "/portfolio/static/media/TailwindLogo.c1fcd49825eb20c784a5.png",
+    "static/media/JavaScriptLogo.png": "/portfolio/static/media/JavaScriptLogo.266bd9fb2663dcc057b4.png",
+    "index.html": "/portfolio/index.html",
+    "main.f855e6bc.css.map": "/portfolio/static/css/main.f855e6bc.css.map",
+    "main.34c9f2c1.js.map": "/portfolio/static/js/main.34c9f2c1.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.34c9f2c1.js"
+  ]
+}
